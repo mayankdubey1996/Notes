@@ -33,7 +33,8 @@ Given this data lets calculate transition proability
 - $$P(Sunny|Sunny) = 0.8 $$
 - $$P(Rainy|Sunny) = 0.8 $$
 - $$P(Sunny|Rainy) = 0.4 $$
-- P(Rainy|Rainy) = 0.6 $$
+- $$P(Rainy|Rainy) = 0.6 $$
+
 
 **Emission Probability**
 
