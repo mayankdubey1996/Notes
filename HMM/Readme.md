@@ -253,7 +253,8 @@ $$P(tag2 | tag1)$$
       
       $$P(tag_1) = \frac{C(tag_1)}{N}$$
       
-      count ot tag
+      count ot tag:
+      
             { tag1 : count,
               tag2 : count, 
               . 
