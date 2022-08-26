@@ -1,8 +1,8 @@
-## Hidden Markov Rule
+# Hidden Markov Rule
 
-#### What is hidden markov rule (HMM)?
+## What is hidden markov rule (HMM)?
 
-#### Let's take an example
+## Let's take an example
 
 ![](images/main.jpg)
 
@@ -12,16 +12,16 @@
 - The probability between states and observation is called **emission probability**.
 ![](images/emission.jpg)
 
-#### Some questions?
+## Some questions?
 - How do we find these probabilities?
 - How to find probability that random day is sunny or rainy?
 - If given output is happy today, What is the probability that it's sunny or rainy?
 - If for 3 days output mood is Happy, Sad, Happy what is the weather?
 
-#### 1. How do we find these probabilities?
+## 1. How do we find these probabilities?
 From past data.
 
-<u>**Transition Probability**</u>
+### Transition Probability
 
 Image shows past 15 days of weather data arranged in order
 ![](images/past_data_transition.jpg)
@@ -39,7 +39,7 @@ $$P(Sunny|Rainy) = 0.4 $$
 $$P(Rainy|Rainy) = 0.6 $$
 
 
-<u>**Emission Probability**</u>
+### Emission Probability
 
 Image shows past 15 days of weather data associated with mood arranged in order
 ![](images/past_data_emissison.jpg)
@@ -58,7 +58,7 @@ Given this data lets calculate transition proability
 ![](images/emissison_proba.jpg)
 
 
-#### 2. What is the probability of random day is sunny or rainy?
+### 2. What is the probability of random day is sunny or rainy?
 - Let's say mood (happy or sad) is not given what is the probability of sunny or rainy?
 ![](images/total_proba.jpg)
 
