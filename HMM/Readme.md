@@ -123,19 +123,6 @@ $$P(Sad|Rainy) = 0.6$$
 
 ![](images/comb2.jpg)
 
-**Combinatin 2:**
-Sunny weather which results happiness followed by Rainy weather which results in sadness
-
-$$P(Sunny) = 0.67$$
-
-$$P(Happy|Sunny) = 0.8$$
-
-$$P(Rainy|Sunny) = 0.2$$
-
-$$P(Sad|Rainy) = 0.6$$
-
-![](images/comb2.jpg)
-
 **Combinatin 3:**
 Rainy weather which results happiness followed by Sunny weather which results in sadness
 
