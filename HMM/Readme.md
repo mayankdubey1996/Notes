@@ -16,7 +16,7 @@
 - How do we find these probabilities?
 - How to find probability that random day is sunny or rainy?
 - If given output is happy today, What is the probability that it's sunny or rainy?
-- If for 3 days output mood is Happy, Sad, Happy what is the weather?
+- If for 2 days output mood is Happy, Sad what is the weather?
 
 ## 1. How do we find these probabilities?
 From past data.
@@ -58,7 +58,7 @@ Given this data lets calculate transition proability
 ![](images/emissison_proba.jpg)
 
 
-### 2. What is the probability of random day is sunny or rainy?
+## 2. What is the probability of random day is sunny or rainy?
 - Let's say mood (happy or sad) is not given what is the probability of sunny or rainy?
 ![](images/total_proba.jpg)
 
@@ -68,7 +68,7 @@ $$P(Sunny) = 10/15 = 0.67 $$
 
 $$P(Rainy) = 5/15 = 0.33 $$
 
-#### 3. Given that we are happy what is the probability of sunny or rainy?
+## 3. Given that we are happy what is the probability of sunny or rainy?
 We know this from emisssion probability
 ![](images/bayes_theorm.jpg)
 
@@ -92,7 +92,7 @@ $$P(Rainy|Happy) = **0.20**$$
 
 $$P(Rainy|Sad) = **0.60**$$
 
+## 4. If for 2 days output mood is Happy and Sad, what is the weather?
 
 
-## 4.
 
