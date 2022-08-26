@@ -32,7 +32,7 @@ Given this data lets calculate transition proability
 - Given that today is **sunny** what is the probability that tomorrow will be **sunny**
 $$P(Sunny|Sunny) = 0.8 $$ 
 - Given that today is **sunny** what is the probability that tomorrow will be **rainy**
-$$P(Rainy|Sunny) = 0.8 $$  
+$$P(Rainy|Sunny) = 0.2 $$  
 - Given that today is **rainy** what is the probability that tomorrow will be **sunny**
 $$P(Sunny|Rainy) = 0.4 $$ 
 - Given that today is **rainy** what is the probability that tomorrow will be **rainy**
@@ -42,7 +42,17 @@ $$P(Rainy|Rainy) = 0.6 $$
 **Emission Probability**
 
 Image shows past 15 days of weather data associated with mood arranged in order
-![](images/emission.jpg)
+![](images/past_data_emissison.jpg)
+
+- Given that today is **sunny** what is the probability that tomorrow will be **sunny**
+$$P(Happy|Sunny) = 0.8 $$ 
+- Given that today is **sunny** what is the probability that tomorrow will be **rainy**
+$$P(Sad|Sunny) = 0.2 $$  
+- Given that today is **rainy** what is the probability that tomorrow will be **sunny**
+$$P(Happy|Rainy) = 0.4 $$ 
+- Given that today is **rainy** what is the probability that tomorrow will be **rainy**
+$$P(Sad|Rainy) = 0.6 $$
+
 
 Given this data lets calculate transition proability
 ![](images/emissison_proba.jpg)
