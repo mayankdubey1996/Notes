@@ -206,5 +206,29 @@ word2 : tag2 <br>
    
    In testing phase, **Will** will be given tag **Modal Verb** as the number of count is most
  
+ ### How to build this model?
+ 
+ 1.  Create dictonary
+ 
+            { word1: { tag1 : count, tag2 : count, .... }} <br>
+            { word2: { tag1 : count, tag2 : count, .... }} <br>
+            . <br> 
+            . <br>
+            . <br>
+            
+ 2. Create MFC table (Maximum frequent count table)
+ 
+            { word1: max_count_tag, <br> 
+              word2: max_count_tag, <br> 
+              . <br> 
+              . <br> 
+              . <br> 
+              }
 
+**Result:**
 
+ 
+   | **Data**           | **Accuracy**|   
+   | :-----------:      |:-----------:|
+   | **Training Data**  | 95.72%      |
+   | **Testing Data**   | 93.01%      | 
