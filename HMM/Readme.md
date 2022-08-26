@@ -157,3 +157,50 @@ $$P(Sad|Rainy) = 0.6$$
 Answer is **Sunny** followed by **Sunny** as it gives maximum probability.
 
 # About project
+
+## Data
+1. Brown Corpus dataset, it is stored in plain  text as a collection of words and tags
+2. Each sentence starts with a unique indetifier on the first line followed by one tab seperated word 1 tag pair.
+**example**
+
+setence_id1
+word1 : tag1
+word2 : tag2
+.
+.
+.
+setence_id2
+word1 : tag1
+word2 : tag2
+.
+.
+.
+**Brown universal dataset has**
+1. 5740 sentences
+2. 45872 training sentences
+3. 11468 test sentences
+
+**More about dataset**
+
+   |               | **Total word** | **Unique Word** |
+   | :-----------: |:-------------: | :-------------: |
+   | **Corpus**    | 1161192        | 56057           |
+   | **Training**  | 928458         | 50536           |
+   | **Testing**   | 232734         | 25112           |
+ 
+ ## Approaches
+ 
+ ## Approach I: 
+ Assign most frequent **tag** to each **word**. It is a good base line model.
+ 
+ **Example:**
+ 
+   | **Word**        | **Tag**     | **Count** |
+   | :-----------:   |:----------: | :-------: |
+   | **Will**        | Noun        | 3         |
+   | **Will**        | Modal Verb  | 10        |
+   
+   In testing phase, **Will** will be given tag **Modal Verb** as the number of count is most
+ 
+
+
