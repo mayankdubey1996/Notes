@@ -163,12 +163,12 @@ Answer is **Sunny** followed by **Sunny** as it gives maximum probability.
 2. Each sentence starts with a unique indetifier on the first line followed by one tab seperated word 1 tag pair.
 **example**
 
-setence_id1 <br>
-word1 : tag1 <br>
-word2 : tag2 <br>
-. <br>
-. <br>
-. <br>
+ - setence_id1 <br>
+      word1 : tag1 <br>
+      word2 : tag2 <br>
+      . <br>
+      . <br>
+      . <br>
 
 setence_id2 <br>
 word1 : tag1 <br>
