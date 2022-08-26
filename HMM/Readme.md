@@ -286,7 +286,7 @@ $$P(tag2 | tag1)$$
        
  3. Sequence start count:
  4. 
-$$P(tag|<start>)$$
+$$P(tag|**<start>**)$$
       
             { tag1 : prob,
               tag2 : prob, 
