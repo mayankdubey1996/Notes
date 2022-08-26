@@ -29,11 +29,14 @@ Image shows past 15 days of weather data arranged in order
 Given this data lets calculate transition proability
 ![](images/transition_proba.jpg)
 
-
-- $$P(Sunny|Sunny) = 0.8 $$ Given that today is **sunny** what is the probability that tomorrow will be **sunny**
-- $$P(Rainy|Sunny) = 0.8 $$ Given that today is **sunny** what is the probability that tomorrow will be **rainy**
-- $$P(Sunny|Rainy) = 0.4 $$ Given that today is **rainy** what is the probability that tomorrow will be **sunny**
-- $$P(Rainy|Rainy) = 0.6 $$ Given that today is **rainy** what is the probability that tomorrow will be **rainy**
+- Given that today is **sunny** what is the probability that tomorrow will be **sunny**
+$$P(Sunny|Sunny) = 0.8 $$ 
+- Given that today is **sunny** what is the probability that tomorrow will be **rainy**
+$$P(Rainy|Sunny) = 0.8 $$  
+- Given that today is **rainy** what is the probability that tomorrow will be **sunny**
+$$P(Sunny|Rainy) = 0.4 $$ 
+- Given that today is **rainy** what is the probability that tomorrow will be **rainy**
+$$P(Rainy|Rainy) = 0.6 $$
 
 
 **Emission Probability**
