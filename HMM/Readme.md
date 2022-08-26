@@ -26,13 +26,14 @@ From past data.
 Image shows past 15 days of weather data arranged in order
 ![](images/past_data_transition.jpg)
 
+Given this data lets calculate transition proability
+![](images/transition_proba.jpg)
+
+
 - $$P(Sunny|Sunny) = 0.8 $$
 - $$P(Rainy|Sunny) = 0.8 $$
 - $$P(Sunny|Rainy) = 0.4 $$
 - P(Rainy|Rainy) = 0.6 $$
-
-Given this data lets calculate transition proability
-![](images/transition_proba.jpg)
 
 **Emission Probability**
 
