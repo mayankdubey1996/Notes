@@ -253,12 +253,22 @@ $$P(tag2 | tag1)$$
       
       $$P(tag_1) = \frac{C(tag_1)}{N}$$
       
-      { tag1 : count/N
-        tag2  : count/N
-        tag3  : count/N
-        .
-        .
-      } 
+      count ot tag
+            { tag1 : count,
+              tag2 : count, 
+              . 
+              . 
+              . 
+              }
+              
+      Probability of tag: count/N
+
+            { tag1 : prob,
+              tag2 : prob, 
+              . 
+              . 
+              . 
+              }
   
- 2. 
+ 2. Bigram count: Occurence (given tag1 what is the probability of tag2)
 
