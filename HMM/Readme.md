@@ -85,6 +85,7 @@ $$P(Sunny|Happy) = \frac{0.528}{0.66}$$
 $$P(Sunny|Happy) = **0.80**$$
 
 Similary,
+
 $$P(Sunny|Sad) = **0.40**$$
 
 $$P(Rainy|Happy) = **0.20**$$
