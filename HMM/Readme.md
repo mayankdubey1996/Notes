@@ -73,9 +73,13 @@ We know this from emisssion probability
 ![](images/bayes_theorm.jpg)
 
 $$P(Sunny|Happy) = \frac{P(Happy|Sunny) * P(Sunny)}{P(Happy)}$$
+
 $$P(Sunny|Happy) = \frac{0.8 * 0.66}{0.66 * 0.8 **+** 0.33 * .04}$$
+
 $$P(Sunny|Happy) = \frac{0.528}{0.528 **+** 0.132}$$
+
 $$P(Sunny|Happy) = \frac{0.528}{0.66}$$
+
 $$P(Sunny|Happy) = **0.80**$$
 
 
