@@ -70,7 +70,7 @@ $$P(Rainy) = 5/15 = 0.33 $$
 
 #### 3. Given that we are happy what is the probability of sunny or rainy?
 We know this from emisssion probability
-![](images/past_data_transition.jpg)
+![](images/bayes_theorm.jpg)
 
 $$P(Sunny|Happy) = \frac{P(Happy|Sunny) * P(Sunny)}{P(Happy)}$$
 
