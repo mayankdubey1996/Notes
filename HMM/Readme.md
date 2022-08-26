@@ -59,7 +59,12 @@ Given this data lets calculate transition proability
 
 
 #### 2. What is the probability of random day is sunny or rainy?
-Let's say mood is not given what is the probability of sunny or rainy?
+- Let's say mood (happy or sad) is not given what is the probability of sunny or rainy?
+![](images/total_proba.jpg)
+
+$$Total Observation = 15$$
+$$P(Sunny) = 10/15 = 0.67 $$
+$$P(Rainy) = 5/15 = 0.33 $$
 
 #### 3. Given that we are happy what is the probability of sunny or rainy?
 IMAGE
