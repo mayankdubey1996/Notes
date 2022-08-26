@@ -72,6 +72,8 @@ $$P(Rainy) = 5/15 = 0.33 $$
 We know this from emisssion probability
 ![](images/bayes_theorm.jpg)
 
+According to the bayes theorm
+
 $$P(Sunny|Happy) = \frac{P(Happy|Sunny) * P(Sunny)}{P(Happy)}$$
 
 $$P(Sunny|Happy) = \frac{0.8 * 0.66}{0.66 * 0.8 **+** 0.33 * .04}$$
@@ -82,6 +84,12 @@ $$P(Sunny|Happy) = \frac{0.528}{0.66}$$
 
 $$P(Sunny|Happy) = **0.80**$$
 
+Similary,
+$$P(Sunny|Sad) = **0.40**$$
+
+$$P(Rainy|Happy) = **0.20**$$
+
+$$P(Rainy|Sad) = **0.60**$$
 
 
 
