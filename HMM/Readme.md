@@ -210,11 +210,12 @@ word2 : tag2 <br>
  
  1.  Create dictonary
  
-            { word1: { tag1 : count, tag2 : count, .... }} <br>
-            { word2: { tag1 : count, tag2 : count, .... }} <br>
+            { word1: { tag1 : count, tag2 : count, .... } <br>
+            { word2: { tag1 : count, tag2 : count, .... } <br>
             . <br> 
             . <br>
             . <br>
+            }
             
  2. Create MFC table (Maximum frequent count table)
  
