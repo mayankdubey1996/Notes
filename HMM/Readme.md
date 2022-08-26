@@ -72,10 +72,7 @@ $$P(Rainy) = 5/15 = 0.33 $$
 We know this from emisssion probability
 ![](images/past_data_transition.jpg)
 
-\frac{C(tag_1)}{N}
-
-$$P(Sunny|Happy) = \frac{P(Happy|Sunny) * P(Sunny)}{P(Happy)}
-
+$$P(Sunny|Happy) = \frac{P(Happy|Sunny) * P(Sunny)}{P(Happy)}$$
 
 ## 4.
 
