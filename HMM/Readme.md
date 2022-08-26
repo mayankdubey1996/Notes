@@ -42,7 +42,7 @@ $$P(Rainy|Rainy) = 0.6 $$
 **Emission Probability**
 
 Image shows past 15 days of weather data associated with mood arranged in order
-![](images/emission.jpgjpg)
+![](images/emission.jpg)
 
 Given this data lets calculate transition proability
 ![](images/emissison_proba.jpg)
