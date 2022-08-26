@@ -69,7 +69,13 @@ $$P(Sunny) = 10/15 = 0.67 $$
 $$P(Rainy) = 5/15 = 0.33 $$
 
 #### 3. Given that we are happy what is the probability of sunny or rainy?
-IMAGE
+We know this from emisssion probability
+![](images/past_data_transition.jpg)
+
+\frac{C(tag_1)}{N}
+
+$$P(Sunny|Happy) = \frac{P(Happy|Sunny) * P(Sunny)}{P(Happy)}
+
 
 ## 4.
 
