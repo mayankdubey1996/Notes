@@ -4,7 +4,7 @@
 
 #### Let's take an example
 
-(images/main.jpg)
+!(images/main.jpg)
 
 - In this diagram let's say we only get to see observation and we have to predict the present state.
 - The probabilities between one hidden state to another hidden state is called **transition probability**.
