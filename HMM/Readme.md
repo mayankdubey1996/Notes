@@ -227,9 +227,24 @@ word2 : tag2 <br>
               }
 
 **Result:**
-
  
    | **Data**           | **Accuracy**|   
    | :-----------:      |:-----------:|
    | **Training Data**  | 95.72%      |
    | **Testing Data**   | 93.01%      | 
+   
+### Approach 2
+Hidden Markov tagger, has one hidden state and for each possible tag and parameterized by 2 probability distribution, **Emission probability** and **Transition probability.**
+
+**Emission Probability: **
+
+$$P(word | tag)$$
+
+**Transition Probability: **
+
+$$P(tag2 | tag1)$$
+
+ ### How to build this model?
+ 
+ 
+
