@@ -249,5 +249,16 @@ $$P(tag2 | tag1)$$
 
  ### How to build this model?
  
- 
+ 1. Unigram Probability of each tag
+      
+      $$P(tag_1) = \frac{C(tag_1)}{N}$$
+      
+      { tag1 : count/N
+        tag2  : count/N
+        tag3  : count/N
+        .
+        .
+      } 
+  
+ 2. 
 
