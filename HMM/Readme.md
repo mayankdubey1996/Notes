@@ -63,7 +63,9 @@ Given this data lets calculate transition proability
 ![](images/total_proba.jpg)
 
 $$Total Observation = 15$$
+
 $$P(Sunny) = 10/15 = 0.67 $$
+
 $$P(Rainy) = 5/15 = 0.33 $$
 
 #### 3. Given that we are happy what is the probability of sunny or rainy?
