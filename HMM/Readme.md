@@ -151,3 +151,9 @@ $$P(Sad|Rainy) = 0.6$$
 ![](images/comb4.jpg)
 
 
+**Final Result**
+![](images/maximum_likelihood.jpg)
+
+Answer is **Sunny** followed by **Sunny** as it gives maximum probability.
+
+# About project
