@@ -8,9 +8,9 @@
 
 - In this diagram let's say we only get to see observation and we have to predict the present state.
 - The probabilities between one hidden state to another hidden state is called **transition probability**.
-(images/transition.jpg)
+![](images/transition.jpg)
 - The probability between states and observation is called **emission probability**.
-(images/emission.jpg)
+![](images/emission.jpg)
 
 #### Some questions?
 - How do we find these probabilities?
