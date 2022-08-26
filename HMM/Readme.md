@@ -236,11 +236,14 @@ word2 : tag2 <br>
 ### Approach 2
 Hidden Markov tagger, has one hidden state and for each possible tag and parameterized by 2 probability distribution, **Emission probability** and **Transition probability.**
 
-**Emission Probability: **
+
+**Emission Probability:**
+Probability of word given tag
 
 $$P(word | tag)$$
 
-**Transition Probability: **
+**Transition Probability:**
+Probability of next tag given current tag
 
 $$P(tag2 | tag1)$$
 
