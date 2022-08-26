@@ -274,3 +274,28 @@ $$P(tag2 | tag1)$$
  2. Bigram count: Occurence (given tag1 what is the probability of tag2) **Transition Probability**
 
  $$P(tag_2|tag_1) = \frac{C(tag_2|tag_1)}{C(tag_2)}$$
+ 
+ 
+            { (tag1,tag2) : prob,
+              (tag1,tag3) : prob, 
+              (tag2,tag1) : prob,
+              . 
+              . 
+              . 
+              }
+       
+ 3. Sequence start count:
+$$P(tag|<start>)$$
+      
+      { tag1 : prob
+        tag2 : prob
+        tag3 : prob
+      }
+ 
+ 4. Sequence end count:
+$$P(<end>|<tag>)$$
+      
+      { tag1 : prob
+        tag2 : prob
+        tag3 : prob
+      }
