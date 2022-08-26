@@ -21,7 +21,7 @@
 #### 1. How do we find these probabilities?
 From past data.
 
-**Transition Probability**
+<u>**Transition Probability**</u>
 
 Image shows past 15 days of weather data arranged in order
 ![](images/past_data_transition.jpg)
@@ -39,7 +39,7 @@ $$P(Sunny|Rainy) = 0.4 $$
 $$P(Rainy|Rainy) = 0.6 $$
 
 
-**Emission Probability**
+<u>**Emission Probability**</u>
 
 Image shows past 15 days of weather data associated with mood arranged in order
 ![](images/past_data_emissison.jpg)
