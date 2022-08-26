@@ -161,8 +161,9 @@ Answer is **Sunny** followed by **Sunny** as it gives maximum probability.
 ## Data
 1. Brown Corpus dataset, it is stored in plain  text as a collection of words and tags
 2. Each sentence starts with a unique indetifier on the first line followed by one tab seperated word 1 tag pair.
-**example**
 
+
+**example**
 
 1. **setence_id1** <br>
       word1 : tag1 <br>
