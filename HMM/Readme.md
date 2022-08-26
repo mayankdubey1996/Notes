@@ -93,6 +93,74 @@ $$P(Rainy|Happy) = **0.20**$$
 $$P(Rainy|Sad) = **0.60**$$
 
 ## 4. If for 2 days output mood is Happy and Sad, what is the weather?
+Let's look at the graph diagram, from this we can can all possible weather combination for the observation **Happy** followed by **Sad**.
 
+![](images/hmm_graph_diagram.jpg)
+
+**Combinatin 1:**
+Sunny weather which results happiness followed by Sunny weather which results in sadness
+
+$$P(Sunny) = 0.67$$
+
+$$P(Happy|Sunny) = 0.8$$
+
+$$P(Sunny|Sunny) = 0.8$$
+
+$$P(Sad|Sunny) = 0.2$$
+
+![](images/comb1.jpg)
+
+**Combinatin 2:**
+Sunny weather which results happiness followed by Rainy weather which results in sadness
+
+$$P(Sunny) = 0.67$$
+
+$$P(Happy|Sunny) = 0.8$$
+
+$$P(Rainy|Sunny) = 0.2$$
+
+$$P(Sad|Rainy) = 0.6$$
+
+![](images/comb2.jpg)
+
+**Combinatin 2:**
+Sunny weather which results happiness followed by Rainy weather which results in sadness
+
+$$P(Sunny) = 0.67$$
+
+$$P(Happy|Sunny) = 0.8$$
+
+$$P(Rainy|Sunny) = 0.2$$
+
+$$P(Sad|Rainy) = 0.6$$
+
+![](images/comb2.jpg)
+
+**Combinatin 3:**
+Rainy weather which results happiness followed by Sunny weather which results in sadness
+
+$$P(Rainy) = 0.33$$
+
+$$P(Happy|Rainy) = 0.4$$
+
+$$P(Sunny|Rainy) = 0.4$$
+
+$$P(Sad|Sunny) = 0.2$$
+
+![](images/comb3.jpg)
+
+
+**Combinatin 4:**
+Rainy weather which results happiness followed by Rainy weather which results in sadness
+
+$$P(Rainy) = 0.33$$
+
+$$P(Happy|Rainy) = 0.4$$
+
+$$P(Rainy|Rainy) = 0.6$$
+
+$$P(Sad|Rainy) = 0.6$$
+
+![](images/comb4.jpg)
 
 
