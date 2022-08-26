@@ -272,6 +272,4 @@ $$P(tag2 | tag1)$$
               }
   
  2. Bigram count: Occurence (given tag1 what is the probability of tag2) **Transition Probability**
- 
-
-            $$P(tag_2|tag_1) = \frac{C(tag_2|tag_1)}{C(tag_2)}$$
+ $$P(tag_2|tag_1) = \frac{C(tag_2|tag_1)}{C(tag_2)}$$
