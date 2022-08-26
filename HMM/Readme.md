@@ -166,15 +166,17 @@ Answer is **Sunny** followed by **Sunny** as it gives maximum probability.
 setence_id1 <br>
 word1 : tag1 <br>
 word2 : tag2 <br>
-.
-.
-.
+. <br>
+. <br>
+. <br>
+
 setence_id2 <br>
 word1 : tag1 <br>
 word2 : tag2 <br>
-.
-.
-.
+. <br>
+. <br>
+. <br>
+
 **Brown universal dataset has**
 1. 5740 sentences
 2. 45872 training sentences
